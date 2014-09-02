@@ -1054,6 +1054,26 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 
+.btnReg {
+	background-color:#00b0b6;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans', sans serif;
+	font-size:20px;
+	padding:6px 15px;
+	text-decoration:none;
+}
+.btnReg:hover {
+	background-color:#0f7375;
+}
+.btnReg:active {
+	position:relative;
+	top:1px;
+}
 
 /* ========================================
 Media queries
