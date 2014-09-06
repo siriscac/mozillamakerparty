@@ -29,9 +29,16 @@ $mail = mail(WEBMASTER_EMAIL, $subject, $message,
      "From: ".$name." <".$email.">\r\n"
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
+$mail2 = mail(WEBMASTER_EMAIL2, $subject, $message,
+     "From: ".$name." <".$email.">\r\n"
+    ."Reply-To: ".$email."\r\n"
+    ."X-Mailer: PHP/" . phpversion());
 
-
-if($mail)
+$mail3 = mail(WEBMASTER_EMAIL3, $subject, $message,
+     "From: ".$name." <".$email.">\r\n"
+    ."Reply-To: ".$email."\r\n"
+    ."X-Mailer: PHP/" . phpversion());
+if($mail || $mail2 || $mail3)
 {
 echo 'OK';
 }
