@@ -82,21 +82,24 @@ jQuery(document).ready(function($) {
 				type: "POST",
 				url: "contact/contact.php",
 				data: str,
-				success: function(msg){
-			$("#sendmessage").addClass("show");
-			$("#errormessage").ajaxComplete(function(event, request, settings){
+				success: function(msg)
+				{
+						$("#sendmessage").addClass("show");
+						$("#errormessage").ajaxComplete(function(event, request, settings){
 		
-			if(msg == 'OK')
-			{
-				$("#sendmessage").addClass("show");				
-			}
-			else
-			{
-				$("#sendmessage").removeClass("show");
-				result = msg;
-			}
+						if(msg == 'OK')
+						{
+							$("#sendmessage").addClass("show");				
+						}
+						else
+						{
+							$("#sendmessage").removeClass("show");
+							result = msg;
+						}
 		
-			$(this).html(result);});}});
+						$(this).html(result);
+					});
+				}});
 				return false;
 	});
 

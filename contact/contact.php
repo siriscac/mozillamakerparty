@@ -34,11 +34,11 @@ $mail2 = mail(WEBMASTER_EMAIL2, $subject, $message,
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
 
-$mail3 = mail(WEBMASTER_EMAIL3, $subject, $message,
+$mail3 = mail(WEBMASTER_EMAIL, $subject, $message,
      "From: ".$name." <".$email.">\r\n"
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
-if($mail || $mail2 || $mail3)
+if($mail)
 {
 echo 'OK';
 }
