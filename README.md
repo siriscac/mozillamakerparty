@@ -1,4 +1,4 @@
-mozillamakerparty
+Mozillamakerparty
 =================
 
-Website for mozilla maker party chennai
+Website for Mozilla Maker Party, Chennai
