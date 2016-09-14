@@ -347,6 +347,11 @@ section.section {
 	font-weight: 700;
 }
 
+#speaker{
+	height: 488px;
+	background-image: url(../img/speakers/img2.jpg);
+}
+
 /* ==========================
  --- Parallax ---
 ============================= */
@@ -761,7 +766,14 @@ nav#filter a {
 .testimonial h5 {
 	color: #fff;
 	font-size: 18px;
-	font-family: Georgia, sans-serif;
+	font-family: Trebuchet MS, sans-serif;
+	line-height: 1.5em;
+}
+
+.testimonial blockquote{
+	color: #fff;
+	font-size: 28px;
+	font-family: Trebuchet MS, sans-serif;
 	line-height: 1.5em;
 }	
 
